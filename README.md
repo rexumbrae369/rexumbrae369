@@ -2,6 +2,8 @@
 
 <img src="assets/header.svg" alt="Ghost King — rexumbrae369" width="100%"/>
 <img src="assets/evolution-timeline.svg" alt="Ghost King — rexumbrae369" width="100%"/>
+<img src="assets/arch-card-scroller.svg" alt="Ghost King — rexumbrae369" width="100%"/>
+
 <br/>
 
 </div>
