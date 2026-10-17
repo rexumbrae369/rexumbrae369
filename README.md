@@ -4,11 +4,6 @@
 
 <br/>
 
-[![Follow](https://img.shields.io/github/followers/rexumbrae369?label=FOLLOW&style=for-the-badge&logo=github&color=0b0a24&labelColor=00f0ff&logoColor=black)](https://github.com/rexumbrae369)
-[![OLZY](https://img.shields.io/badge/OLZY-CORPORATION-ff2bd6?style=for-the-badge&labelColor=0b0a24)](#)
-[![Status](https://img.shields.io/badge/STATUS-ONLINE-39ff88?style=for-the-badge&labelColor=0b0a24)](#)
-[![Profile Views](https://komarev.com/ghpvc/?username=rexumbrae369&style=for-the-badge&color=b300ff&labelColor=0b0a24&label=VIEWS)](#)
-
 **[`[ ABOUT ]`](#-about) · [`[ ARSENAL ]`](#-arsenal) · [`[ PROJECTS ]`](#-projects) · [`[ STATS ]`](#-stats) · [`[ CONNECT ]`](#-connect)**
 
 <img src="assets/divider.svg" width="100%" alt=""/>
