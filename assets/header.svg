@@ -41,7 +41,7 @@
     <text class="title gA" x="60" y="142" fill="#00f0ff" opacity="0.7">GHOST KING</text>
     <text class="title gB" x="60" y="142" fill="#ff2bd6" opacity="0.7">GHOST KING</text>
     <text class="title" x="60" y="142" fill="url(#txt)" filter="url(#glow)">GHOST KING</text>
-    <text class="mono" x="64" y="186" font-size="20" fill="#9ad7ff" letter-spacing="4">@rexumbrae369  //  OLZY CORPORATION</text>
+    <text class="mono" x="64" y="186" font-size="20" fill="#9ad7ff" letter-spacing="4">@rexumbrae369  |  OLZY CORPORATION</text>
     <text class="mono" x="64" y="222" font-size="16" fill="#00f0ff" opacity="0.85">&gt; initializing neural uplink<tspan class="cur">_</tspan></text>
     <!-- scanline: runs once, then rests off-canvas at y=300 -->
     <rect y="-10" width="1000" height="3" fill="#00f0ff" opacity="0.25"><animate attributeName="y" from="-10" to="300" dur="4s" repeatCount="1" fill="freeze"/></rect>
