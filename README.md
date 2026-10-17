@@ -11,7 +11,7 @@
 <img src="assets/terminal.svg" alt="terminal intro" width="100%"/>
 
 <details>
-<summary><b>🧬 &nbsp;Expand: Identity Matrix</b></summary>
+<summary><b>🧬 Identity Matrix</b></summary>
 <br/>
 
 | Field | Value |
