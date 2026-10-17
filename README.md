@@ -4,10 +4,6 @@
 
 <br/>
 
-**[`[ ABOUT ]`](#-about) · [`[ ARSENAL ]`](#-arsenal) · [`[ PROJECTS ]`](#-projects) · [`[ STATS ]`](#-stats) · [`[ CONNECT ]`](#-connect)**
-
-<img src="assets/divider.svg" width="100%" alt=""/>
-
 </div>
 
 ## ⚡ ABOUT
