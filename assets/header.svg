@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 300" width="100%">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#05060f"/><stop offset="0.5" stop-color="#0b0a24"/><stop offset="1" stop-color="#1a0630"/>
+    </linearGradient>
+    <linearGradient id="txt" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#00f0ff"><animate attributeName="stop-color" values="#00f0ff;#b300ff;#00f0ff" dur="6s" repeatCount="indefinite"/></stop>
+      <stop offset="1" stop-color="#ff2bd6"><animate attributeName="stop-color" values="#ff2bd6;#00f0ff;#ff2bd6" dur="6s" repeatCount="indefinite"/></stop>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#00f0ff" stroke-opacity="0.08"/>
+      <animateTransform attributeName="patternTransform" type="translate" from="0 0" to="0 40" dur="3s" repeatCount="indefinite"/>
+    </pattern>
+    <filter id="glow" x="-20%" y="-50%" width="140%" height="200%">
+      <feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <clipPath id="clip"><rect width="1000" height="300" rx="14"/></clipPath>
+  </defs>
+  <style>
+    .mono{font-family:'Courier New',ui-monospace,monospace}
+    .title{font-family:'Courier New',ui-monospace,monospace;font-weight:700;font-size:76px;letter-spacing:10px}
+    @keyframes glitchA{0%,90%,100%{transform:translate(0,0)}92%{transform:translate(-5px,2px)}94%{transform:translate(4px,-2px)}96%{transform:translate(-3px,0)}98%{transform:translate(2px,1px)}}
+    @keyframes glitchB{0%,90%,100%{transform:translate(0,0)}91%{transform:translate(5px,-2px)}93%{transform:translate(-4px,2px)}95%{transform:translate(3px,0)}97%{transform:translate(-2px,-1px)}}
+    @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+    .gA{animation:glitchA 4s infinite}.gB{animation:glitchB 4s infinite}
+    .cur{animation:blink 1s infinite}
+  </style>
+  <g clip-path="url(#clip)">
+    <rect width="1000" height="300" fill="url(#bg)"/>
+    <rect width="1000" height="300" fill="url(#grid)"/>
+    <!-- orbit rings -->
+    <g transform="translate(860 150)" fill="none" filter="url(#glow)">
+      <circle r="95" stroke="#00f0ff" stroke-opacity="0.5" stroke-dasharray="6 10"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="24s" repeatCount="indefinite"/></circle>
+      <circle r="70" stroke="#ff2bd6" stroke-opacity="0.6" stroke-dasharray="30 14"><animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="14s" repeatCount="indefinite"/></circle>
+      <circle r="44" stroke="#b300ff" stroke-width="2"><animate attributeName="r" values="44;50;44" dur="3s" repeatCount="indefinite"/></circle>
+      <circle r="6" fill="#00f0ff"><animateMotion dur="6s" repeatCount="indefinite" path="M-95,0 a95,95 0 1,0 190,0 a95,95 0 1,0 -190,0"/></circle>
+      <circle r="4" fill="#ff2bd6"><animateMotion dur="4s" repeatCount="indefinite" path="M70,0 a70,70 0 1,1 -140,0 a70,70 0 1,1 140,0"/></circle>
+      <polygon points="0,-22 19,-11 19,11 0,22 -19,11 -19,-11" stroke="#00f0ff" stroke-width="2"><animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="10s" repeatCount="indefinite"/></polygon>
+    </g>
+    <!-- title with glitch layers -->
+    <text class="title gA" x="60" y="142" fill="#00f0ff" opacity="0.7">GHOST KING</text>
+    <text class="title gB" x="60" y="142" fill="#ff2bd6" opacity="0.7">GHOST KING</text>
+    <text class="title" x="60" y="142" fill="url(#txt)" filter="url(#glow)">GHOST KING</text>
+    <text class="mono" x="64" y="186" font-size="20" fill="#9ad7ff" letter-spacing="4">@rexumbrae369  //  OLZY CORPORATION</text>
+    <text class="mono" x="64" y="222" font-size="16" fill="#00f0ff" opacity="0.85">&gt; initializing neural uplink<tspan class="cur">_</tspan></text>
+    <!-- scanline -->
+    <rect width="1000" height="3" fill="#00f0ff" opacity="0.25"><animate attributeName="y" from="-10" to="300" dur="4s" repeatCount="indefinite"/></rect>
+    <!-- HUD corners -->
+    <g stroke="#00f0ff" stroke-width="2" fill="none" opacity="0.8">
+      <path d="M12 40V12H40"/><path d="M960 12H988V40"/><path d="M12 260V288H40"/><path d="M988 260V288H960"/>
+    </g>
+  </g>
+  <rect x="1" y="1" width="998" height="298" rx="14" fill="none" stroke="#00f0ff" stroke-opacity="0.35"/>
+</svg>

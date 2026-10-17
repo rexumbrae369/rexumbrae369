@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 24" width="100%">
+  <defs><linearGradient id="d" x1="0" x2="1"><stop offset="0" stop-color="#00f0ff" stop-opacity="0"/><stop offset="0.5" stop-color="#ff2bd6"/><stop offset="1" stop-color="#00f0ff" stop-opacity="0"/></linearGradient></defs>
+  <line x1="0" y1="12" x2="1000" y2="12" stroke="url(#d)" stroke-width="2"/>
+  <polygon points="500,4 508,12 500,20 492,12" fill="#00f0ff"><animate attributeName="opacity" values="1;0.2;1" dur="2s" repeatCount="indefinite"/></polygon>
+  <circle r="3" cy="12" fill="#fff"><animate attributeName="cx" from="0" to="1000" dur="3s" repeatCount="indefinite"/></circle>
+</svg>
